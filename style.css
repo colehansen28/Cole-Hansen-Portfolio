@@ -1,0 +1,91 @@
+.nav-item:hover{
+    transform: scale(1.1);
+}
+
+.overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(13,110,253,.6);
+    opacity: 0;   
+    transition: opacity .25s;
+}
+
+    .overlay:hover{
+        opacity: 1;
+    }
+
+.project-card{
+    overflow: hidden;
+}
+
+    .project-card:hover{
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+        border: none;
+    }
+
+    .project-card:hover img{
+        transform: scale(1.15);
+        transition: all .25s;
+    }
+
+    .project-card button:hover{
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+        transform: scale(1.1);
+        transition: all .25s;
+    }
+
+    .work .convo{
+        border-color: transparent;
+    }
+
+.work .convo:hover{
+    background-color: transparent;
+    border-color: rgb(13,110,253);
+    color: rgb(13,110,253);
+    transform: scale(1.1);
+    transition: all .25s;
+}
+
+.startproject button{
+    background-color: transparent;
+    color: white;
+    border-color:rgb(13,110,253) ;
+}
+
+    .startproject button:hover{
+        background-color:rgb(13,110,253);
+        border-color: white;
+        transform: scale(1.1);
+        transition: all .25s;
+    }
+
+.contactme{
+    background: linear-gradient(white 50%,rgb(13,110,253) 50%);
+}
+
+.contactmecard{
+    width: 90%;
+}
+
+.footer button:hover{
+    transform: scale(1.1);
+    transition: all .25s;
+}
+
+    .contributiontext{
+        font-size: .75rem;
+    }
+
+
+/*--------scroll-effects------------*/
+.hidden{
+    opacity: 0;
+    transition: all 1.5s;
+  }
+  .show{
+    opacity: 1;
+  }

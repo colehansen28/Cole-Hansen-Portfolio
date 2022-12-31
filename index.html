@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ddef17b025.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Portfolio Page</title>
+</head>
+<body>
+    <main class="">
+        <nav class="navbar navbar-expand-md bg-primary" id="home">
+            <div class="container">
+                <a href="" class="navbar-brand" style="width: 75px">
+                    <img class="img-fluid" src="images\Cole Hansen Portfolio Logo.png" alt="">
+                </a>
+                <button class="navbar-toggler border border-0 fs-1 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><i class="fa-solid fa-bars"></i></button>
+                <div class="collapse navbar-collapse fs-5" id="navmenu">
+                    <ul class="navbar-nav ms-auto text-center
+                    ">
+                        <li class="nav-item hidden">
+                            <a href="#home" class="nav-link text-white">Home</a>
+                        </li>
+                        <li class="nav-item hidden">
+                            <a href="#aboutme" class="nav-link text-white">About</a>
+                        </li>
+                        <li class="nav-item hidden">
+                            <a href="#projects" class="nav-link text-white">Projects</a>
+                        </li>
+                        <li class="nav-item hidden">
+                            <a href="#contactme" class="nav-link text-white">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="hero hidden">
+            <div class="container">
+                <h1 class="text-center pt-5 ">Frontend Developer & Designer</h1>
+                <h5 class="text-center pt-2 pb-5">I love to design and code beutifully simple things</h5>
+                <div class="container text-center pt-4">
+                    <img src="images\hero image.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </section>
+        <section class="aboutme bg-secondary pt-4" id="aboutme">
+            <div class="container">
+                <h1 class="text-center text-white pt-5"><b>Hello, I'm Cole. Nice to meet you.</b></h1>
+                <p class="text-center text-white pt-3 pb-4 fs-5">I have 4 years of experience in both the MLB and Collegiate Strength and Conditioning, and I have consistently demonstrated my ability to adapt, organize, and lead. Through out my career I have developed a passion for web-development and design. I am a quick learner and highly motivated to succeed. I have a strong work ethic and dedication to producing high-quality work. I am also a strong team player and enjoy collaborating with others to achieve common goals. </p>
+                <div class="space bg-secondary" style ="height: 200px;"></div>
+            </div>
+        </section>
+        <section class="skills mb-5 hidden">
+                <div class="container text-center mx-auto" style="margin-top: -150px">
+                    <div class="row justify-content-center" style="gap: .5em">
+                        <div class="col-11 col-md-5 py-4 bg-white border rounded" style="box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);">
+                            <div class="container py-4 px-4">
+                                <div class="container bg-primary d-flex justify-content-center align-items-center fs-1 text-white rounded-circle" style="height: 75px; width: 75px"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                                <h1 class="pt-3"><b>Designer</b></h1>
+                                <p class="info pt-3 fs-5">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                                <p class="design pt-5 text-primary fs-5">Things I enjoy designing:</p>
+                                <p class="content fs-5">UX, UI, Web, Apps, Logos</p>
+                                <p class="tools pt-5 text-primary fs-5">Design Tools:</p>
+                                <p class="content fs-5 lh-lg">Affinity Designer <br>Figma <br>Font Awesome<br> Pen & Paper <br>Sketch Webflow</p>
+                            </div>
+                        </div>
+                        <div class="col-11 col-md-5 py-4 rounded border bg-white" style="box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);">
+                            <div class="container py-4 px-4">
+                                <div class="container bg-primary d-flex justify-content-center align-items-center fs-1 text-white rounded-circle" style="height: 75px; width: 75px"><i class="fa-solid fa-code"></i></div>
+                                <h1 class="pt-3"><b>Developer</b></h1>
+                                <p class="info pt-3 fs-5">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+                                <p class="design pt-5 text-primary fs-5">Languages I speak:</p>
+                                <p class="content fs-5">HTML, Pug, Python, CSS, Sass, JavaScript</p>
+                                <p class="tools pt-5 text-primary fs-5">Dev Tools:</p>
+                                <p class="content fs-5 lh-lg">Angular<br>Bootstrap<br>Tailwind<br>GitHub<br> Bulma<br>VS Code</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="work pt-5 pb-3 border-top hidden" id="projects">
+            <div class="container text-center">
+                <h1 class="header"><b>My Recent Projects</b></h1>
+                <p class="fs-5 fw-semibold">Here are a couple of my most recent Projets.</p>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2 mt-5">
+                    <div class="col">
+                        <div class="card rounded project-card">
+                            <img src="images\inputgram-card-image.png" alt="" class="img-fluid position-relative rounded">
+                            <div class=" overlay position-absolute rounded p-2" >
+                                <h1 class="text-white fw-bold">Inputgram</h1>
+                                <p class="fs-5 text-white">Instagram clone designed without a framework.</p>
+                                <a href="https://colehansen28.github.io/InputGram/" target="_blank"><button class="btn rounded-pill bg-light ">Visit Site</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card rounded project-card">
+                            <img src="images\codebook-card-image.png" alt="" class="img-fluid position-relative rounded">
+                            <div class=" overlay position-absolute rounded p-2" >
+                                <h1 class="text-white fw-bold">Codebook</h1>
+                                <p class="fs-5 text-white">Facebook clone designed without a framework.</p>
+                                <a href="https://colehansen28.github.io/CodeBook/" target="_blank"><button class="btn rounded-pill bg-light ">Visit Site</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card rounded project-card">
+                            <img src="images\iphonetribute-card-image.png" alt="" class="img-fluid position-relative rounded">
+                            <div class=" overlay position-absolute rounded p-2" >
+                                <h1 class="text-white fw-bold">Iphone Tribute</h1>
+                                <p class="fs-5 text-white">Simple and elegant apple/iphone page with multiple javascript transitions.</p>
+                                <a href="https://colehansen28.github.io/iPhone-Tribute-Page/" target="_blank"><button class="btn rounded-pill bg-light ">Visit Site</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card rounded project-card">
+                            <img src="images\dronewebsite-card-image.png" alt="" class="img-fluid position-relative rounded">
+                            <div class=" overlay position-absolute rounded p-2" >
+                                <h1 class="text-white fw-bold">Zip Imaging</h1>
+                                <p class="fs-5 text-white">Simple website for a drone company designed with Bootstrap.</p>
+                                <a href="https://colehansen28.github.io/Drone_website/" target="_blank"><button class=" btn rounded-pill bg-light ">Visit Site</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card rounded project-card">
+                            <img src="images\Movieapp -card-image.png" alt="" class="img-fluid position-relative rounded">
+                            <div class=" overlay position-absolute rounded p-2" >
+                                <h1 class="text-white fw-bold">CineBook</h1>
+                                <p class="fs-5 text-white">Movie application that uses an API to update movie titles from search.</p>
+                                <a href="https://colehansen28.github.io/CineBook/" target="_blank"><button class="btn rounded-pill bg-light ">Visit Site</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card rounded project-card">
+                            <img src="images\rpg-card-image.png" alt="" class="img-fluid position-relative rounded">
+                            <div class=" overlay position-absolute rounded p-2" >
+                                <h1 class="text-white fw-bold">Dragon Slayer</h1>
+                                <p class="fs-5 text-white">Monster slaying RPG game built with Javascript .</p>
+                                <a href="https://colehansen28.github.io/RPG/" target="_blank"><button class="btn rounded-pill bg-light ">Visit Site</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="fs-4 pt-5"><b>Intersted in collaborating/working with me?</b></p>
+                <p class="fw-semibold fs-5">I would love to discuss the opportunity.</p>
+                <a href="mailto:grasynhansen@gmail.com"><button class=" convo btn btn-primary rounded-pill">Start a Conversation</button></a>
+            </div>
+        </section>
+        <section class="space" style="height: 100px;">
+        </section>
+        <section class="contactme bg-primary hidden">
+            <div class="container startproject text-center bg-secondary rounded">
+                <div class="row row-cols-1 row-cols-lg-3 pt-5 pb-5">
+                    <div class="col p-2 d-flex justify-content-center align-items-center">
+                        <h1 class="text-white fw-bold">Start a project</h1>
+                    </div>
+                    <div class="col p-2">
+                        <p class="fs-5 text-white">Interested in working together? Lets schedule a time to chat!I'll buy the coffee.</p>
+                    </div>
+                    <div class="col p-2 d-flex justify-content-center align-items-center">
+                        <a href="mailto:grasynhansen@gmail.com" target="_blank">
+                            <button type ="submit" class="fs-5 btn border border-2 text-white py-2 px-4 rounded-pill"> <i class="fa-brands fa-rocketchat"></i> Lets Chat!</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer bg-primary pt-5 pb-4 hidden" id="contactme">
+            <div class="container text-center">
+                <div class="imgcontainer m-auto pt-5 pb-5 d-flex" style="width: 100px">
+                    <a href="#home"><img class="img-fluid" src="images\Cole Hansen Portfolio Logo.png" alt=""></a>
+                </div>
+                <p class="fs-5 text-white pb-4">Continuosuly striving <br>for progess, not perfection.</p>
+                <div class="row g-3 w-50 m-auto pb-5 footerbtns">
+                    <div class="col">
+                        <a href="https://github.com/colehansen28" target="_blank">
+                            <button class="btn rounded-circle fs-4 text-white border-white border-3"><i class="fa-brands fa-github"></i></button>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.linkedin.com/in/cole-hansen-aa3b18229/" target="_blank">
+                            <button  class="btn rounded-circle fs-4 text-white border-white border-3"><i class="fa-brands fa-linkedin"></i></button>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="tel:+6786893327">
+                            <button  class="btn rounded-circle fs-4 text-white border-white border-3"><i class="fa-solid fa-phone"></i></button>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="mailto:grasynhansen@gmail.com">
+                            <button  class="btn rounded-circle fs-4 text-white border-white border-3"><i class="fa-regular fa-envelope"></i></button>
+                        </a>
+                    </div>
+                </div>
+                <p class="text-white">Created by: Cole Hansen</p>
+                <div class="contribution d-flex align-items-center justify-content-center">
+                    <p class="mt-auto mb-auto text-white contributiontext">Made with:&nbsp</p>
+                    <div class="imgcontainer" style="width:25px;">
+                        <img class="img-fluid" src="images\unnamed.png" alt="">
+                    </div>
+                </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/ddef17b025.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
